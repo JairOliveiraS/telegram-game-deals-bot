@@ -1,0 +1,70 @@
+# ─── Price Checker Workflow ───────────────────────────────────────────
+#
+# Runs every 4 hours to check game prices and send Telegram notifications.
+#
+# How it works:
+#   1. Checks out the repo
+#   2. Installs Python + dependencies
+#   3. Runs the price checker script
+#   4. Commits any changes to tracked_games.json (updated notified_deals)
+#
+# Required GitHub Secrets:
+#   - ITAD_API_KEY
+#   - TELEGRAM_BOT_TOKEN
+#   - TELEGRAM_CHAT_ID
+#
+# ─────────────────────────────────────────────────────────────────────
+
+name: Check Game Deals
+
+on:
+  # Run every 4 hours at minute 0
+  schedule:
+    - cron: "0 */4 * * *"
+
+  # Also allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+# Only one instance should run at a time
+concurrency:
+  group: price-checker
+  cancel-in-progress: true
+
+jobs:
+  check-deals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # Step 1: Get a copy of the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Step 4: Run the price checker
+      - name: Check prices and send notifications
+        env:
+          ITAD_API_KEY: ${{ secrets.ITAD_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m bot.price_checker
+
+      # Step 5: Commit updated tracked_games.json if it changed
+      #         (the notified_deals field gets updated after each run)
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tracked_games.json
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "Update notified deals [skip ci]"
+          git push
