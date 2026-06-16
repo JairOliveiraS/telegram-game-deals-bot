@@ -34,6 +34,8 @@ jobs:
   check-deals:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       # Step 1: Get a copy of the repo
