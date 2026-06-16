@@ -72,8 +72,9 @@ def search_game(title: str, limit: int = 5) -> list[dict]:
       search_game("God of War") → [{"id": "...", "slug": "god-of-war", "title": "God of War"}, ...]
     """
     data = _api_get("/games/search/v1", {"title": title, "limit": limit})
-    if data and "games" in data:
-        return data["games"]
+    # API returns a raw list of games, not an object with a "games" key
+    if isinstance(data, list):
+        return data
     return []
 
 
