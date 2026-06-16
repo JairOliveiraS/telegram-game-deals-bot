@@ -1,4 +1,13 @@
 {
-  "games": {},
+  "games": {
+    "018d937f-4964-7357-a557-f04dac608915": {
+      "title": "God of War",
+      "slug": "god-of-war",
+      "publisher": "PlayStation",
+      "original_price": 199.9,
+      "manual": false,
+      "added_at": "2026-06-16T16:59:24.941263+00:00"
+    }
+  },
   "notified_deals": {}
 }
