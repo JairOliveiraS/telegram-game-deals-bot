@@ -25,6 +25,8 @@ from bot.config import TRACKED_GAMES_FILE, GITHUB_TOKEN, GITHUB_REPO
 
 
 def _github_headers() -> dict:
+    if not GITHUB_TOKEN:
+        print("[Storage] WARNING: GITHUB_TOKEN is not set!")
     return {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
@@ -43,7 +45,10 @@ def _fetch_file_from_github() -> tuple[dict | None, str | None]:
     try:
         resp = requests.get(url, headers=_github_headers(), timeout=15)
         if resp.status_code == 404:
+            print(f"[Storage] File not found in repo (404). Will create new.")
             return None, None
+        if resp.status_code != 200:
+            print(f"[Storage] GitHub API error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         file_data = resp.json()
         content = base64.b64decode(file_data["content"]).decode("utf-8")
@@ -77,6 +82,8 @@ def _commit_to_github(data: dict, sha: str | None, message: str) -> bool:
 
     try:
         resp = requests.put(url, headers=_github_headers(), json=body, timeout=15)
+        if resp.status_code != 200:
+            print(f"[Storage] GitHub API error {resp.status_code}: {resp.text}")
         resp.raise_for_status()
         return True
     except requests.RequestException as e:
