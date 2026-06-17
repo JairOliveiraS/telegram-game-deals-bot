@@ -343,6 +343,14 @@
       "original_price": 239,
       "manual": true,
       "added_at": "2026-06-17T02:39:18.505338+00:00"
+    },
+    "0198c3f8-d58b-7371-b0a5-2a3b424ede64": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "slug": "lego-batman-legacy-of-the-dark-knight",
+      "publisher": "Warner Bros. Games",
+      "original_price": 299.99,
+      "manual": false,
+      "added_at": "2026-06-17T02:42:50.907288+00:00"
     }
   },
   "notified_deals": {}
