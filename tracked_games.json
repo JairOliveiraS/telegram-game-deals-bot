@@ -15,6 +15,14 @@
       "original_price": 356.5,
       "manual": false,
       "added_at": "2026-06-16T17:01:06.384359+00:00"
+    },
+    "018d937f-679e-7276-b6f1-e59da609dd4b": {
+      "title": "The Last of Us™ Part I",
+      "slug": "the-last-of-us-part-i",
+      "publisher": "Sony Interactive Entertainment",
+      "original_price": 249.9,
+      "manual": false,
+      "added_at": "2026-06-17T01:40:47.076138+00:00"
     }
   },
   "notified_deals": {}
