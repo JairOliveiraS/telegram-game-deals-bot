@@ -79,6 +79,14 @@
       "original_price": 0.0,
       "manual": false,
       "added_at": "2026-06-17T02:05:04.001757+00:00"
+    },
+    "018dd0ec-ce78-7205-887b-cfc7b259ae00": {
+      "title": "Dying Light 2 Stay Human - Reloaded Edition",
+      "slug": "dying-light-2-stay-human-reloaded-edition",
+      "publisher": "Techland",
+      "original_price": 249,
+      "manual": false,
+      "added_at": "2026-06-17T02:05:27.825969+00:00"
     }
   },
   "notified_deals": {}
