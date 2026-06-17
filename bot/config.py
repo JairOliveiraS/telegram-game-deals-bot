@@ -44,7 +44,7 @@ PUBLISHER_WHITELIST = [
     "bloober team s.a.",
     "bloober team",
     "bloober team s.a",
-]
+]   "techland",
 
 # ─── Paths ───────────────────────────────────────────────────────────
 TRACKED_GAMES_FILE = "tracked_games.json"
