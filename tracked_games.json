@@ -127,6 +127,14 @@
       "original_price": 174.9,
       "manual": false,
       "added_at": "2026-06-17T02:13:40.877480+00:00"
+    },
+    "0190378e-1a64-720e-8971-4595157e24f3": {
+      "title": "FINAL FANTASY VII REBIRTH",
+      "slug": "final-fantasy-vii-rebirth",
+      "publisher": "Square Enix",
+      "original_price": 219.9,
+      "manual": false,
+      "added_at": "2026-06-17T02:14:16.969152+00:00"
     }
   },
   "notified_deals": {}
