@@ -231,6 +231,14 @@
       "original_price": 306.15,
       "manual": true,
       "added_at": "2026-06-17T02:23:19.803580+00:00"
+    },
+    "019c5430-e354-7391-ac50-457dfc146f43": {
+      "title": "SILENT HILL: Townfall",
+      "slug": "silent-hill-townfall",
+      "publisher": "Konami",
+      "original_price": 255.12,
+      "manual": false,
+      "added_at": "2026-06-17T02:23:57.789605+00:00"
     }
   },
   "notified_deals": {}
