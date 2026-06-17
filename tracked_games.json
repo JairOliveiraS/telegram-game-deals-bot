@@ -247,6 +247,14 @@
       "original_price": 0.0,
       "manual": false,
       "added_at": "2026-06-17T02:24:25.887664+00:00"
+    },
+    "018d937f-7a06-7082-ae40-6a37d855cb32": {
+      "title": "Monster Hunter Wilds",
+      "slug": "monster-hunter-wilds",
+      "publisher": "Capcom Co., Ltd.",
+      "original_price": 279,
+      "manual": false,
+      "added_at": "2026-06-17T02:25:41.788883+00:00"
     }
   },
   "notified_deals": {}
