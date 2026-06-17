@@ -95,6 +95,14 @@
       "original_price": 249.9,
       "manual": false,
       "added_at": "2026-06-17T02:05:50.115967+00:00"
+    },
+    "018d937f-7871-736b-991b-3dc2794ac099": {
+      "title": "Marvel's Spider-Man 2",
+      "slug": "marvels-spider-man-2",
+      "publisher": "Sony Interactive Entertainment",
+      "original_price": 0.0,
+      "manual": false,
+      "added_at": "2026-06-17T02:06:03.952966+00:00"
     }
   },
   "notified_deals": {}
