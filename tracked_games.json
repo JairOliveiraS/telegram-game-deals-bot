@@ -351,6 +351,14 @@
       "original_price": 299.99,
       "manual": false,
       "added_at": "2026-06-17T02:42:50.907288+00:00"
+    },
+    "01902bdd-1d49-7303-ad83-524b3797f25b": {
+      "title": "LEGO® Horizon Adventures™",
+      "slug": "lego-horizon-adventures",
+      "publisher": "PlayStation",
+      "original_price": 0.0,
+      "manual": false,
+      "added_at": "2026-06-17T02:43:32.424277+00:00"
     }
   },
   "notified_deals": {}
