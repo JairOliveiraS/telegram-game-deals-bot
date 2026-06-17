@@ -31,6 +31,14 @@
       "original_price": 199.9,
       "manual": false,
       "added_at": "2026-06-17T01:41:10.703476+00:00"
+    },
+    "0191e1ab-f56a-73c3-a150-9bda3983c160": {
+      "title": "Stellar Blade",
+      "slug": "stellar-blade",
+      "publisher": "Sony Interactive Entertainment",
+      "original_price": 0.0,
+      "manual": false,
+      "added_at": "2026-06-17T01:41:37.386396+00:00"
     }
   },
   "notified_deals": {}
