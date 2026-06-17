@@ -223,6 +223,14 @@
       "original_price": 259,
       "manual": false,
       "added_at": "2026-06-17T02:22:43.733546+00:00"
+    },
+    "018d937f-1805-71ae-b2fa-8d8c2c8f8342": {
+      "title": "Atomic Heart",
+      "slug": "atomic-heart",
+      "publisher": "Focus Entertainment",
+      "original_price": 306.15,
+      "manual": true,
+      "added_at": "2026-06-17T02:23:19.803580+00:00"
     }
   },
   "notified_deals": {}
