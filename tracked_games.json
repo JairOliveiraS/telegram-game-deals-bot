@@ -55,6 +55,14 @@
       "original_price": 357.19,
       "manual": false,
       "added_at": "2026-06-17T01:46:36.326488+00:00"
+    },
+    "01929b7a-3773-7175-8f68-e5f67aa628c5": {
+      "title": "Cronos: The New Dawn",
+      "slug": "cronos-the-new-dawn",
+      "publisher": "Bloober Team S.A.",
+      "original_price": 249,
+      "manual": false,
+      "added_at": "2026-06-17T01:58:32.579261+00:00"
     }
   },
   "notified_deals": {}
