@@ -87,6 +87,14 @@
       "original_price": 249,
       "manual": false,
       "added_at": "2026-06-17T02:05:27.825969+00:00"
+    },
+    "018d937f-6136-71e4-a7d4-088a2e8f58ad": {
+      "title": "Marvel's Spider-Man Remastered",
+      "slug": "marvels-spider-man-remastered",
+      "publisher": "PlayStation",
+      "original_price": 249.9,
+      "manual": false,
+      "added_at": "2026-06-17T02:05:50.115967+00:00"
     }
   },
   "notified_deals": {}
