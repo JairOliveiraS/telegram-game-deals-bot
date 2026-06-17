@@ -215,6 +215,14 @@
       "original_price": 0.0,
       "manual": false,
       "added_at": "2026-06-17T02:22:11.735386+00:00"
+    },
+    "01973dd3-e247-712c-aaee-acff181a3175": {
+      "title": "PRAGMATA",
+      "slug": "pragmata",
+      "publisher": "CAPCOM CO. LTD",
+      "original_price": 259,
+      "manual": false,
+      "added_at": "2026-06-17T02:22:43.733546+00:00"
     }
   },
   "notified_deals": {}
