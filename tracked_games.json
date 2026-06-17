@@ -207,6 +207,14 @@
       "original_price": 255.12,
       "manual": true,
       "added_at": "2026-06-17T02:21:47.439968+00:00"
+    },
+    "019ea33e-2c13-7180-93b5-b56da4df14be": {
+      "title": "Hellblade II: Senua's Saga",
+      "slug": "hellblade-ii-senuas-saga",
+      "publisher": "Xbox Game Studios",
+      "original_price": 0.0,
+      "manual": false,
+      "added_at": "2026-06-17T02:22:11.735386+00:00"
     }
   },
   "notified_deals": {}
