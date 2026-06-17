@@ -103,6 +103,14 @@
       "original_price": 0.0,
       "manual": false,
       "added_at": "2026-06-17T02:06:03.952966+00:00"
+    },
+    "018d937f-4b30-71db-a955-18758fe9e7c5": {
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "slug": "marvels-spider-man-miles-morales",
+      "publisher": "Sony Interactive Entertainment",
+      "original_price": 199.9,
+      "manual": false,
+      "added_at": "2026-06-17T02:06:27.170603+00:00"
     }
   },
   "notified_deals": {}
