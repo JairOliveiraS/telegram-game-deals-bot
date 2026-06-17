@@ -45,6 +45,12 @@ PUBLISHER_WHITELIST = [
     "bloober team",
     "bloober team s.a",
     "techland",
+    "bandai namco entertainment",
+    "bandai namco us",
+    "cyberconnect2",
+    "bandai namco entertainment inc.",
+    "bandai namco entertainment us",
+
 ]
 
 # ─── Paths ───────────────────────────────────────────────────────────
