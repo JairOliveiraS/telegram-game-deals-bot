@@ -47,6 +47,14 @@
       "original_price": 357.19,
       "manual": false,
       "added_at": "2026-06-17T01:43:04.507352+00:00"
+    },
+    "018d937f-3e65-70f6-9951-190f0fa3502e": {
+      "title": "SILENT HILL 2",
+      "slug": "silent-hill-2",
+      "publisher": "Konami Digital Entertainment",
+      "original_price": 357.19,
+      "manual": false,
+      "added_at": "2026-06-17T01:46:36.326488+00:00"
     }
   },
   "notified_deals": {}
