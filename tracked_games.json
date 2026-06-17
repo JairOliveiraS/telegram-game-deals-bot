@@ -303,6 +303,14 @@
       "original_price": 357.19,
       "manual": false,
       "added_at": "2026-06-17T02:34:43.405219+00:00"
+    },
+    "018d937f-7850-73de-b288-0774d65daf49": {
+      "title": "Star Wars Outlaws",
+      "slug": "star-wars-outlaws",
+      "publisher": "Ubisoft Entertainment",
+      "original_price": 357.19,
+      "manual": false,
+      "added_at": "2026-06-17T02:35:10.038350+00:00"
     }
   },
   "notified_deals": {}
