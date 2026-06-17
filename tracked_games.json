@@ -151,6 +151,14 @@
       "original_price": 199,
       "manual": true,
       "added_at": "2026-06-17T02:17:33.757400+00:00"
+    },
+    "018d937f-5c96-7241-a70f-e8de1c1e0609": {
+      "title": "DEATH STRANDING DIRECTOR'S CUT",
+      "slug": "death-stranding-directors-cut",
+      "publisher": "505 Games",
+      "original_price": 159,
+      "manual": false,
+      "added_at": "2026-06-17T02:18:25.678753+00:00"
     }
   },
   "notified_deals": {}
