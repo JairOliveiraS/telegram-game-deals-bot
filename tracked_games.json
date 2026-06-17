@@ -39,6 +39,14 @@
       "original_price": 0.0,
       "manual": false,
       "added_at": "2026-06-17T01:41:37.386396+00:00"
+    },
+    "01959185-ba9e-738b-86c4-2104497fb9f8": {
+      "title": "SILENT HILL f",
+      "slug": "silent-hill-f",
+      "publisher": "Konami",
+      "original_price": 357.19,
+      "manual": false,
+      "added_at": "2026-06-17T01:43:04.507352+00:00"
     }
   },
   "notified_deals": {}
