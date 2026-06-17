@@ -159,6 +159,14 @@
       "original_price": 159,
       "manual": false,
       "added_at": "2026-06-17T02:18:25.678753+00:00"
+    },
+    "019c5415-b335-70b0-8977-4be74e816e5f": {
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "slug": "death-stranding-2-on-the-beach",
+      "publisher": "Sony Interactive Entertainment",
+      "original_price": 0.0,
+      "manual": false,
+      "added_at": "2026-06-17T02:18:42.709313+00:00"
     }
   },
   "notified_deals": {}
