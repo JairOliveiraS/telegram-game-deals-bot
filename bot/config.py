@@ -40,6 +40,10 @@ PUBLISHER_WHITELIST = [
     "warner bros",
     "warner bros. games",
     "warner bros. interactive entertainment",
+    "bloober team sa",
+    "bloober team s.a.",
+    "bloober team",
+    "bloober team s.a",
 ]
 
 # ─── Paths ───────────────────────────────────────────────────────────
