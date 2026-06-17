@@ -311,6 +311,14 @@
       "original_price": 357.19,
       "manual": false,
       "added_at": "2026-06-17T02:35:10.038350+00:00"
+    },
+    "018d937f-5fa5-722a-b125-88031e98ca45": {
+      "title": "Avatar: Frontiers of Pandora",
+      "slug": "avatar-frontiers-of-pandora",
+      "publisher": "Ubisoft",
+      "original_price": 153.05,
+      "manual": false,
+      "added_at": "2026-06-17T02:35:21.477063+00:00"
     }
   },
   "notified_deals": {}
