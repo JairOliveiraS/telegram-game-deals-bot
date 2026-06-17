@@ -119,6 +119,14 @@
       "original_price": 306.15,
       "manual": false,
       "added_at": "2026-06-17T02:12:50.465607+00:00"
+    },
+    "018d937f-5b12-7380-a77e-8754efb603d0": {
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "slug": "final-fantasy-vii-remake-intergrade",
+      "publisher": "Square Enix",
+      "original_price": 174.9,
+      "manual": false,
+      "added_at": "2026-06-17T02:13:40.877480+00:00"
     }
   },
   "notified_deals": {}
